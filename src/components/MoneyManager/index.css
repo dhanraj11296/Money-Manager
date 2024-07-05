@@ -1,0 +1,88 @@
+.appContainer {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+.responsiveContainer {
+  width: 80%;
+}
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  height: 170px;
+  border-radius: 15px;
+}
+.heading {
+  color: #475569;
+  font-size: 25px;
+}
+.headerContent {
+  color: #475569;
+  font-size: 15px;
+}
+.moneyManagerText {
+  color: #0b69ff;
+}
+.transactionDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.transactionForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 425px;
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  border-radius: 15px;
+}
+.transactionheader {
+  color: #475569;
+  font-size: 15px;
+}
+.inputLabel {
+  color: #7e858e;
+  font-size: 15px;
+}
+.input {
+  color: #1e293b;
+  background-color: white;
+  border: 1px solid #d7dfe9;
+}
+.button {
+  background-color: #0b69ff;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+.historyTransactions {
+  border: 1px solid #cbd5e1;
+  width: 100%;
+}
+.transactionTableContainer {
+  height: 100%;
+  border-radius: 10px;
+}
+.transactionsTable {
+  padding-left: 0;
+}
+.tableHeader {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50px;
+  border: 1px solid #cbd5e1;
+}
+.tabelHeaderCell {
+  color: #334155;
+  width: 30%;
+  border-right: none;
+}

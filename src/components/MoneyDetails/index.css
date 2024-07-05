@@ -1,0 +1,44 @@
+.moneyDetailsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.balanceContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  border-radius: 15px;
+}
+.detailsImg {
+  width: 65px;
+  height: 65px;
+  margin: 25px;
+}
+.detailsText {
+  color: #475569;
+  font-size: 15px;
+}
+.detailsMoney {
+  color: #475569;
+  font-size: 20px;
+}
+.incomeContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+.expensesContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
